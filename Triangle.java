@@ -1,7 +1,5 @@
- 
-
 /**
- * A triangle defined by its base and height.
+* A triangle defined by its base and height.
  */
 public class Triangle implements Shape {
     private double base;
@@ -9,7 +7,6 @@ public class Triangle implements Shape {
 
     /**
      * Creates a triangle with the given base and height.
-     *
      * @param base   the length of the base of the triangle
      * @param height the height of the triangle
      */
@@ -20,7 +17,6 @@ public class Triangle implements Shape {
 
     /**
      * Calculates the area of the triangle (½ · base · height).
-     *
      * @return the area of the triangle
      */
     @Override
@@ -30,7 +26,6 @@ public class Triangle implements Shape {
 
     /**
      * Returns the class name of this shape.
-     *
      * @return "Triangle"
      */
     @Override
@@ -40,8 +35,6 @@ public class Triangle implements Shape {
 
     /**
      * Returns a description of the triangle for display in the GUI,
-     * e.g. {@code Triangle (b=7.8, h=9.0)}.
-     *
      * @return the string representation of the triangle
      */
     @Override
