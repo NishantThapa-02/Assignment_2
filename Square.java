@@ -6,7 +6,6 @@ public class Square implements Shape {
 
     /**
      * Creates a square with the given side length.
-     *
      * @param side the length of one side of the square
      */
     public Square(double side) {
@@ -15,7 +14,6 @@ public class Square implements Shape {
 
     /**
      * Calculates the area of the square (side²).
-     *
      * @return the area of the square
      */
     @Override
@@ -25,7 +23,6 @@ public class Square implements Shape {
 
     /**
      * Returns the class name of this shape.
-     *
      * @return "Square"
      */
     @Override
@@ -34,9 +31,7 @@ public class Square implements Shape {
     }
 
     /**
-     * Returns a description of the square for display in the GUI,
-     * e.g. {@code Square (s=3.4)}.
-     *
+     * Returns a description of the square for display in the GUI
      * @return the string representation of the square
      */
     @Override
