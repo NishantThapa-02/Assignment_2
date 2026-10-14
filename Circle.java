@@ -6,7 +6,6 @@ public class Circle implements Shape {
 
     /**
      * Creates a circle with the given radius.
-     *
      * @param radius the radius of the circle
      */
     public Circle(double radius) {
@@ -15,7 +14,6 @@ public class Circle implements Shape {
 
     /**
      * Calculates the area of the circle (π · r²).
-     *
      * @return the area of the circle
      */
     @Override
@@ -25,7 +23,6 @@ public class Circle implements Shape {
 
     /**
      * Returns the class name of this shape.
-     *
      * @return "Circle"
      */
     @Override
@@ -35,8 +32,6 @@ public class Circle implements Shape {
 
     /**
      * Returns a description of the circle for display in the GUI,
-     * e.g. {@code Circle (r=1.2)}.
-     *
      * @return the string representation of the circle
      */
     @Override
