@@ -1,6 +1,4 @@
- 
-
-/**
+ /**
  * A rectangle defined by its width and length.
  */
 public class Rectangle implements Shape {
@@ -20,7 +18,6 @@ public class Rectangle implements Shape {
 
     /**
      * Calculates the area of the rectangle (width · length).
-     *
      * @return the area of the rectangle
      */
     @Override
@@ -30,7 +27,6 @@ public class Rectangle implements Shape {
 
     /**
      * Returns the class name of this shape.
-     *
      * @return "Rectangle"
      */
     @Override
@@ -40,8 +36,6 @@ public class Rectangle implements Shape {
 
     /**
      * Returns a description of the rectangle for display in the GUI,
-     * e.g. {@code Rectangle (5.6x6.7)}.
-     *
      * @return the string representation of the rectangle
      */
     @Override
